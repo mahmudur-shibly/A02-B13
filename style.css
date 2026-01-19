@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1A0B2E;
+    color: white;
+}
+/* navbar design */
+nav{
+    border: 2px solid red;
+    padding: 5px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+nav>p{
+    border: 2px solid green;
+}
+nav>div{
+    border: 2px solid blue;
+    display: flex;
+    gap: 47px;
+    align-items: center;
+}
+
+.btn{
+    background-color: linear;
+    border: none;
+    padding: 13px 16px;
+    border-radius: 5px;
+    font-size: 16;
+    font-weight: Semi bold;
+}
