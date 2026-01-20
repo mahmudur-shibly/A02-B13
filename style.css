@@ -5,11 +5,7 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-/* -------------------------------------- */
 
-/* ============== */
-/* shared styles */
-/* ============== */
 * {
   margin: 0;
   padding: 0;
@@ -81,16 +77,12 @@
 .footer-links a {
   text-decoration: none;
 }
-/* ============================================== */
 
-/* ============body background=========== */
 body {
   background-color: var(--primary-theme);
 }
 
-/* ============================================== */
-/* Navigationbar styles */
-/* ============================================== */
+
 nav {
   background-color: var(--primary-theme);
   border-bottom: 5px solid var(--secondary-theme);
@@ -118,7 +110,7 @@ nav {
   background-clip: text;
 }
 
-/* nav menu */
+
 .nav-links {
   list-style: none;
   transition: transform 0.5s ease-in-out;
@@ -145,11 +137,7 @@ nav {
   font-size: 2rem;
   cursor: pointer;
 }
-/*=============================================*/
 
-/* /* =====================*/
-/* banner styles */
-/* ======================== */
 .image-container {
   position: relative;
 }
@@ -177,7 +165,7 @@ nav {
   max-width: 20%;
 }
 
-/* tooltip 'New' button */
+
 .tooltip {
   position: absolute;
   top: 40%;
@@ -233,11 +221,7 @@ nav {
   color: var(--color-green);
   border: 2px solid var(--color-green);
 }
-/* ================================================= */
 
-/* =================== */
-/* About section styles */
-/* ===================*/
 .about-container {
   text-align: center;
 }
@@ -257,11 +241,7 @@ nav {
   color: var(--color-green);
   font-weight: 800;
 }
-/* ================================================= */
 
-/* ================= */
-/* Why Choose TechWave Releted Styles */
-/* ================= */
 #why-choose {
   background-color: var(--primary-theme-bg);
 }
@@ -279,7 +259,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  /* grid-template-rows: repeat(3, 1fr); */
+ 
 }
 
 .wtc-big-card,
@@ -324,9 +304,7 @@ nav {
   margin-top: 1rem;
 }
 
-/* ================================== */
-/* Featured Episodes Releted Styles */
-/* ================================== */
+
 .inside-ep-container {
   padding: 120px 0px;
 }
@@ -377,11 +355,7 @@ nav {
   font-size: 1rem;
   font-weight: 600;
 }
-/* ================================================= */
 
-/* ================= */
-/* Host styles */
-/* ================= */
 .host-info-top-heading h2 {
   text-align: center;
   margin-bottom: 3rem;
@@ -422,11 +396,7 @@ nav {
   padding: 12px;
   border-radius: 50%;
 }
-/* ================================================= */
 
-/* ================= */
-/* Footer styles */
-/* ================= */
 footer {
   background-image: url("assets/footer-bg.png");
   position: relative;
@@ -443,12 +413,12 @@ footer {
   overflow: hidden;
 }
 
-/* -----need to check it and update the width issue------ */
+
 .footer-content h2{
   font-size: 3rem;
   text-align: center;
 }
-/* ------------------------------------------------------ */
+
 
 .footer-links {
   display: flex;
@@ -473,14 +443,10 @@ footer {
 .footer-section-copyright{
   padding-bottom: 20px;  
 }
-/* ================================================= */
 
-/* ================================================= */
-/* Mobile Responsive Styles Start */
-/* ================================================= */
 @media screen and (max-width: 575px) {
 
-  /* ----shared styles---- */
+
   .section-heading{
     font-size: 2rem;
     font-weight: 700;
@@ -495,9 +461,7 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
   }
-/* --------------------- */
 
-/* navbar styles */
   .navbar {
     display: flex;
     padding: 16px 20px;
@@ -512,7 +476,7 @@ footer {
     display: block;
   }
 
-/* =======banner section========= */
+
   .banner-bg{
     background-size: contain;
     height: 460px;
@@ -552,20 +516,20 @@ footer {
     font-size: 1rem;
   }
 
-  /* ========About Section======== */
+
   .about-highlights {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
   }
 
-  /* ========Why Choose TechWave Section======== */
+
   .wct-card-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
   }
 
-/* ========Featured Episodes Section======== */
+
   .ep-card-container {
     flex-direction: column;
     gap: 1rem;
@@ -575,7 +539,7 @@ footer {
     
   } 
 
-/* ========Host Section======== */
+
   .host-info-container {
     flex-direction: column;
     gap: 1rem;
@@ -587,7 +551,7 @@ footer {
     justify-content: center;
   }
 
-  /* ========Footer Section======== */
+
 .footer-links {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -598,6 +562,3 @@ footer {
       background-size: 100% 100%;
   }
 }
-/* ================================================= */
-/* Mobile Responsive Styles End */
-/* ================================================= */
